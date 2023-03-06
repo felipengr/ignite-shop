@@ -37,7 +37,7 @@ export const ProductDetails = styled('div', {
     span: {
         marginTop: '1rem',
         display: 'block',
-        fontSize: '2xl',
+        fontSize: '$2xl',
         color: '$green300'
     },
 
