@@ -31,3 +31,53 @@ export const CartClose = styled(Dialog.Close, {
     right: '1.75rem',
     cursor: 'pointer',
 })
+
+export const CartProduct = styled('div', {
+    width: '100%',
+    display: 'flex',
+    gap: '1.25rem',
+    alignItems: 'center',
+    height: '5.8125rem',
+})
+
+export const CartProductImage = styled('div', {
+    background: 'linear-gradient(180deg, #1ea483 0%, #7465d4 100%)',
+    height: '5.8125rem',
+    width: '6.3125rem',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 8,
+
+    img: {
+        objectFit: 'cover',
+    },
+})
+
+export const CartProductDetails = styled('div', {
+    display: 'flex',
+    flexDirection: 'column',
+    height: '100%',
+
+    p: {
+        color: '$gray300',
+        fontSize: '$md',
+    },
+
+    strong: {
+        marginTop: 4,
+        fontSize: '$md',
+        fontWeight: 700,
+    },
+
+    button: {
+        cursor: 'pointer',
+        marginTop: 'auto',
+        width: 'max-content',
+        background: 'none',
+        fontSize: '1rem',
+        fontWeight: 700,
+        border: 'none',
+        color: '$green500',
+    },
+})
