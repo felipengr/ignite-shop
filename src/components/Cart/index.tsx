@@ -5,9 +5,11 @@ import { CartButton } from "../CartButton";
 import {
     CartClose,
     CartContent,
+    CartFinalization,
     CartProduct,
     CartProductDetails,
-    CartProductImage
+    CartProductImage,
+    FinalizationDetails
 } from './styles';
 
 export function Cart() {
@@ -40,6 +42,19 @@ export function Cart() {
                             </CartProductDetails>
                         </CartProduct>
                     </section>
+                    <CartFinalization>
+                        <FinalizationDetails>
+                            <div>
+                                <span>Quantidade</span>
+                                <p>2 itens</p>
+                            </div>
+                            <div>
+                                <span>Valor total</span>
+                                <p>R$ 100,00</p>
+                            </div>
+                        </FinalizationDetails>
+                        <button>Finalizar compra</button>
+                    </CartFinalization>
                 </CartContent>
             </Dialog.Portal>
         </Dialog.Root>
