@@ -14,7 +14,7 @@ export const SliderContainer = styled('div', {
     margin: '0 auto',
 
     '.embla__slide': {
-        minWidth: '43.5rem',
+        minWidth: '30.5rem',
     },
 })
 
